@@ -1,0 +1,13 @@
+nav{
+    top: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+body{
+    background-image: url(Background/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
