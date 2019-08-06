@@ -1,0 +1,59 @@
+/*.jumbo{
+     width: 90%;
+    border: 2px;
+    padding:80px 60px;
+    height: 40%;
+    color:violet;
+    font-size: 4rem;
+    font-family: serif;
+    background-color: rgba(0, 0, 0, 0.45767);
+    box-shadow: 0px 6px 12px #fff;
+    position: relative;
+    top: 20%;
+    left:5%;
+    right: 5%;
+}*/
+.nav-wrapper{
+    background:linear-gradient(to bottom, #000428 0%,#004e92 100%);
+}
+body{
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   background-image: url(RM2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   }
+   #logo{
+       /* position: relative;
+       top: 50%; */
+       width: 100%;
+       margin-top: 10%;
+       border: 2px solid black;
+       height:40%;
+       
+   }
+/*div.logo{
+    width: 15px;
+    height: 40px;
+    padding: 5px;
+    background-image: url(RMLogo.png);
+    background-attachment: fixed;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}*/
+div.card{
+    padding: 2%;
+    width:200px;
+    height: 200em;
+}
+div.card-image{
+    padding:0px;
+    width:14em;
+    height:34em;
+    background-position:relative;
+    background-attachment: scroll;
+
+}
