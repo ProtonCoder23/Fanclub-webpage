@@ -1,93 +1,88 @@
-.jumbo{
-    width: 90%;
-    border: 2px;
-    height: 400px;
-    color:violet;
-    font-size: 4rem;
-    font-family: serif;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 6px 12px #fff;
-    position: absolute;
-    top: 20%;
-    left:5%;
-    right:5%;
+.jumbo {
+  width: 90%;
+  border: 2px;
+  height: 400px;
+  color: violet;
+  font-size: 4rem;
+  font-family: serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 6px 12px #fff;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  right: 5%;
 }
-.nav-wrapper{
-    background:linear-gradient(to bottom, #000428 0%,#004e92 100%);
+.nav-wrapper {
+  background: linear-gradient(to bottom, #000428 0%, #004e92 100%);
 }
-body{
-   width: 100%;
-   height: 100%;
-   margin: 0px;
-   background-image: url(rmst.jpg);
-   background-size: cover;
-   background-attachment: fixed;
-   overflow-x: hidden;
-   }
-   .container{
-       padding:0;
-       width: 100px;
-       height:28px;
-       
-   }
-   .grid{
-       width: 100%;
-       height: 20px;
-
-   }
-   #logo{
-       padding: 33px;
-       
-    }
-    .team{
-        text-align: center; 
-        font-family: serif Georgia, 'Times New Roman', Times, serif;
-        font-variant: small-caps;
-        color: rgb(255, 255, 255);
-        position: absolute;
-        top:10%;
-        left:38%;
-        right:15%;
-        letter-spacing: 1px;
-        font: bold;
-    }
-    .right_features{
-        font-variant: small-caps;
-        color: rgb(255, 255, 255);
-        position:absolute;
-        left:30%;
-        right:40%;
-        top:40%;
-        font-size: 25px;
-        word-spacing: 1px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 400;
-        text-shadow: white,2px,2px;
-        line-height: 33px;  
-
-    }
-    .left_features{
-        font-variant: small-caps;
-        color: rgb(255, 255, 255);
-        position:absolute;
-        left:60%;
-        right:15%;
-        top:40%;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 400;
-        text-align: left;
-        line-height: 33px;
-        
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-image: url(rmst.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
-    #navbut{
-        margin-left: 1.5rem;
-        margin-top: 2.5rem;
-        border-left: 10rem;
-        border-right: 4rem;
-    }
-    /* .mainsub{ */
-        /* background-color:white;
+.container {
+  padding: 0;
+  width: 100px;
+  height: 28px;
+}
+.grid {
+  width: 100%;
+  height: 20px;
+}
+#logo {
+  padding: 33px;
+}
+.team {
+  text-align: center;
+  font-family: serif Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  right: 15%;
+  letter-spacing: 1px;
+  font: bold;
+}
+.right_features {
+  font-variant: small-caps;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 30%;
+  right: 40%;
+  top: 40%;
+  font-size: 25px;
+  word-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-shadow: white, 2px, 2px;
+  line-height: 33px;
+}
+.left_features {
+  font-variant: small-caps;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 60%;
+  right: 15%;
+  top: 40%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 33px;
+}
+#navbut {
+  margin-left: 1.5rem;
+  margin-top: 2.5rem;
+  border-left: 10rem;
+  border-right: 4rem;
+}
+/* .mainsub{ */
+/* background-color:white;
         max-width:100%;
         max-height: 100%;
         margin-top:32rem;
@@ -95,50 +90,73 @@ body{
         margin-right: 2rem;
         margin-left:2rem;
         border-radius: 1.6rem 1.6rem 0 0; */
-    .team_header{
-        padding: 20px;
-        font-family: serif Georgia, 'Times New Roman', Times, serif;
-        font-variant: small-caps;
-        align-content: center;
-        
-    }
-.mainbody{
-    /* height: 100%; */
-    background-color: rgba(255, 255, 255, 0.5);
-    /* width: 100%; */
-    margin:500px 10px;
-    padding: 2rem 2rem;
-    border-radius: 1.6rem 1.6rem ;
+.team_header {
+  padding: 20px;
+  font-family: serif Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  align-content: center;
 }
-.cont{
-    width: 100%;
-    text-align: center;
-    justify-content: center;
+.mainbody {
+  /* height: 100%; */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* width: 100%; */
+  margin: 500px 10px;
+  padding: 2rem 2rem;
+  border-radius: 1.6rem 1.6rem;
 }
-h1{
-    font-family:Arial,Helvetica Neue,Helvetica,sans-serif;
-    font-size: 50px;
-    font-variant: small-caps;
-    font-weight: 600;
+.cont {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
-#gk{
-    background-size:cover;
-    background-position: center;
+h1 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 50px;
+  font-variant: small-caps;
+  font-weight: 600;
 }
-.col{
-    float: left;
+#gk {
+  background-size: cover;
+  background-position: center;
 }
-#dfnd{
-    background-size:cover;
-    background-position: center;
+.col {
+  float: left;
 }
-#mid{
-    background-size:cover;
-    background-position: center;
+#dfnd {
+  background-size: cover;
+  background-position: center;
 }
-#frwd{
-    background-size:cover;
-    background-position: center;
+#mid {
+  background-size: cover;
+  background-position: center;
 }
-
-
+#frwd {
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 550px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 12px;
+}
+.text {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.carousel {
+  overflow: visible;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: auto;
+  margin-top: 130px;
+}
+.text_ {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}

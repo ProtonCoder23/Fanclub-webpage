@@ -9,7 +9,7 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- <link rel="stylesheet" href="rm.css">
+ <link rel="stylesheet" href="rm v2.0.css">
          </head>
          <body>
             <nav>
@@ -557,7 +557,31 @@
 
                   </div>
 
-            </div>    
+            </div>
+            <footer>
+                <h4 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding: 10px;color:black;background-color: rgba(255, 255,255,0.42)"><strong>TROPHY ROOM</strong></h4>
+                    <div class="carousel">
+                            <a class="carousel-item" href="#"><h5 class="text">La Liga</h5><img src="cups/la-liga.png"><h4 class="text">33</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">Champions league</h5><img src="cups/trophy_champions_league.png"><h4 class="text_">13</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">Fifa Club World Cup</h5><img src="cups/fifa-world-cup.png"><h4 class="text_">7</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">Copa Del Rey</h5><img src="cups/Spanish_Cup.png"><h4 class="text_">19</h4></a>
+                          
+                
+                    </div>
+                    </footer>
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.carousel');
+                    var instances = M.Carousel.init(elems, {
+                        duration: 100
+                    });
+                    });
+                    var instance = M.Carousel.getInstance(elem);
+                    instance.next(2);
+                    instance.prev(2);
+                    instance.set(1);
+
+                    </script>    
             
                 <script type="text/javascript" src="js/materialize.min.js"></script>
          </body>
