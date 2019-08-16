@@ -466,7 +466,31 @@
 
                   </div>
 
-            </div>    
+            </div>
+            <footer>
+                <h4 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding: 10px;color:black;background-color: rgba(255, 255,255,0.42)"><strong>TROPHY ROOM</strong></h4>
+                    <div class="carousel">
+                            <a class="carousel-item" href="#"><h5 class="text">Premier League</h5><img src="cups/PL cup.png"><h4 class="text">6</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">Super cup</h5><img src="cups/super cup.png"><h4 class="text_">5</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">FA cup</h5><img src="cups/fa cup.png"><h4 class="text_">6</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">League cup</h5><img src="cups/trophy_coppa_uefa.png"><h4 class="text_">6</h4></a>
+                          
+                
+                    </div>
+                    </footer>
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.carousel');
+                    var instances = M.Carousel.init(elems, {
+                        duration: 100
+                    });
+                    });
+                    var instance = M.Carousel.getInstance(elem);
+                    instance.next(2);
+                    instance.prev(2);
+                    instance.set(1);
+
+                    </script>     
             
                 <script type="text/javascript" src="js/materialize.min.js"></script>
          </body>
@@ -481,5 +505,5 @@
 
 
 
-    </body>
+
 </html>
