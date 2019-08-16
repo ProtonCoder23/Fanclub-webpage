@@ -86,7 +86,7 @@
                                   <div class="card-image" style="width: 300px;">
                                         <img src="cillessen.jpg" height="300px" width="10px" alt="cillessen">
                                         <span class="card-title" style="color: black; position:relative; bottom:0px;">JASPER CILLESSEN</span>
-                                        <a href="https://shop.realmadrid.com/stores/realmadrid/en/c/football-kits/shop-by-players/13-courtois" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                                        <a href="#" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
                                   </div>
                                   <div class="card-content">
                                   <p><table>
@@ -501,21 +501,39 @@
                                             </tr>
                                         </table></p>
                                     </div>
-                                    </div></td> 
-                                            
-                                                </table></p>
-                                    </td>
-                            </tr>
-                        </table>
+                                    </div></td>
+                                    </tr>
+                                    </table> 
+                                    </div>
+            </div>
+            <footer>
+                <h4 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding: 10px;color:black;background-color: rgba(255, 255,255,0.42)"><strong>TROPHY ROOM</strong></h4>
+                    <div class="carousel">
+                            <a class="carousel-item" href="#"><h5 class="text">La Liga</h5><img src="cups/la-liga.png"><h4 class="text">26</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">Champions league</h5><img src="cups/trophy_champions_league.png"><h4 class="text_">5</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">Fifa Club World Cup</h5><img src="cups/fifa-world-cup.png"><h4 class="text_">3</h4></a>
+                            <a class="carousel-item" href="#"><h5 class="text">Copa Del Rey</h5><img src="cups/Spanish_Cup.png"><h4 class="text_">30</h4></a>
+                          
+                
                     </div>
-  
+                    </footer>
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.carousel');
+                    var instances = M.Carousel.init(elems, {
+                        duration: 100
+                    });
+                    });
+                    var instance = M.Carousel.getInstance(elem);
+                    instance.next(2);
+                    instance.prev(2);
+                    instance.set(1);
 
-
-                  </div>
-
-            </div>    
+                    </script>
+                    
             
                 <script type="text/javascript" src="js/materialize.min.js"></script>
+
          </body>
 
         
