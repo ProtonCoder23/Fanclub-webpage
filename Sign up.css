@@ -84,8 +84,10 @@ input:focus {
 
 .links {
   color: white;
+  text-decoration: none;
 }
 
 .links a {
   margin-left: 4px;
+  text-decoration: none;
 }
