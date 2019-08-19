@@ -1,0 +1,78 @@
+.nav-wrapper {
+  background: linear-gradient(to bottom, #000428 0%, #004e92 100%);
+}
+body {
+  background-image: url(Firstpg.jpg);
+  background-attachment: fixed;
+}
+.display {
+  width: 92%;
+  border: 2px;
+  height: 500px;
+  font-size: 4rem;
+  font-family: serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 6px 12px #fff;
+  position: absolute;
+  top: 25%;
+  left: 4%;
+  right: 4%;
+}
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  margin-left: 35px;
+  margin-top: 110px;
+  margin-right: 40px;
+  float: left;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgba(26, 5, 5, 0.42);
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 100px;
+}
+.textin {
+  padding: 50px;
+}
+.textlink {
+  color: #fff;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+#logo1 {
+  margin-top: 120px;
+}
+.texting {
+  padding: 40px;
+}
