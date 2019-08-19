@@ -88,9 +88,7 @@ body {
   align-content: center;
 }
 .mainbody {
-  /* height: 100%; */
   background-color: rgba(255, 255, 255, 0.5);
-  /* width: 100%; */
   margin: 500px 10px;
   margin-bottom: 30px;
   padding: 2rem 2rem;
